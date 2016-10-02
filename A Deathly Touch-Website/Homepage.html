@@ -12,7 +12,7 @@
 <div id="HeadTitle">
     <img src="Images/ADTWebBack2.png" style="width: 1000px;height: 200px;">
 </div>
-<body style="background-color: black">
+<body style="background-color: #323232">
     <div id="Main-Body">
         <nav class="navbar navbar-inverse navbar-fixed-top navbar-center">
             <div class="container-fluid">
@@ -26,32 +26,44 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Modpacks</a></li>
-                        <li><a href="#">Community</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Modders</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Merchandise</a></li>
+                        <li class="active"><a href="#"><span id="navtext">Home</span></a></li>
+                        <li><a href="#"><span id="navtext">Community</span></a></li>
+                        <li><a href="#"><span id="navtext">Modpacks</span></a></li>
+                        <li><a href="#"><span id="navtext">Modders</span></a></li>
+                        <li><a href="#"><span id="navtext">Teams</span></a></li>
+                        <li class="disabled"><a href="#"><span id="navtext">Merchandise</span></a></li>
+                        <li><a href="#"><span id="navtext">Contact</span></a></li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links <span class="glyphicon glyphicon-link"
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span id="navtext">More</span>
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background-color: black;">
+                                <li class="dropdown-header" id="dheader">More Fun Things!</li>
+                                <li class="divider" id="divider"></li>
+                                <li><a href="#"><span class="dlinkc">Gallery</span></a></li>
+                                <li><a href="#"><span class="dlinkc">YouTubers</span></a></li>
+                            </ul>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span id="navtext">Links</span> <span class="glyphicon glyphicon-link" id="navtext"></span>
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu" style="background-color: black;">
                                 <li class="dropdown-header" id="dheader">Social Media</li>
+                                <li class="divider" id="divider"></li>
                                 <li><a href="https://www.twitter.com/ADeathlyTouch"><span class="dlinkc">Twitter</span></a></li>
                                 <li><a href="https://facebook.com/ADeathlyTouch"><span class="dlinkc">Facebook</span></a></li>
                                 <li class="divider" id="divider"></li>
                                 <li class="dropdown-header" id="dheader">Watch Me!</li>
+                                <li class="divider" id="divider"></li>
                                 <li><a href="https://www.youtube.com/channel/UCPbW25z576ZKY9KlPbt8flg"><span class="dlinkc">YouTube</span></a></li>
                                 <li><a href="https://www.twitch.tv/a_deathly_touch"><span class="dlinkc">Twitch</span></a></li>
                                 <li class="divider" id="divider"></li>
-                                <li class="dropdown-header" id="dheader">GitHubs</li>
+                                <li class="dropdown-header" id="dheader">GitHub Pages</li>
+                                <li class="divider" id="divider"></li>
                                 <li><a href="https://github.com/ADeathyTouch"><span class="dlinkc">GitHub</span></a></li>
                                 <li><a href="https://github.com/tjkenmate/TheModdingTrialsMod"><span class="dlinkc">Tesla Essentials GitHub</span></a></li>
                                 <li><a href="https://github.com/TheDragonTeam"><span class="dlinkc">The Dragon Team GitHub</span></a></li>
                                 <li class="divider" id="divider"></li>
                                 <li class="dropdown-header" id="dheader">Support Me!</li>
+                                <li class="divider" id="divider"></li>
                                 <li><a href="https://www.patreon.com/deathly"><span class="dlinkc">Patreon</span></a></li>
                             </ul>
                     </ul>
@@ -62,21 +74,60 @@
             </div>
         </nav>
     </div>
-        <h1 id="h1">Welcome!</h1>
-            <p id="intro">Hi there I am A Deathly Touch. I am a YouTuber, Streamer, and Developer.</p>
+<div class="container-fluid" id="body">
+    <div class="row">
+        <div class="col-sm-3">
+            <h1 id="h1"><a href="#" id="t1" data-toggle="tooltip" title="Gallery">Photos</a></h1>
+            <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();
+                });
+            </script>
+            <div id="ph1">
+                <img src="Images/webpic1.png" width="300px" height="200px" style="border: 2px solid aqua;"/>
+            </div>
+            <div id="ph2">
+                <img src="Images/webpic13.png" width="300px" height="200px" style="border: 2px solid aqua;"/>
+            </div>
+            <div id="ph3">
+                <img src="Images/webpic3.png" width="300px" height="200px" style="border: 2px solid aqua;"/>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <h2 id="h2">Welcome!</h2>
+            <p id="intro">YouTuber, Streamer, and Developer.</p>
             <p id="intro2">Welcome to my world!</p>
-    <div id="ytplayers">
-        <div id="mcplaylist"><span style="color: aqua;">Xbox One Minecraft Series</span>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLpIxAOdQZKmE677hqVzgGM7e9d5srl-lT" frameborder="0" allowfullscreen></iframe>
+            <p id="bio">Hello there I am A Deathly Touch, although I usually go by Deathly. I live in Wisconsin, US and I am 19 years old. I like to play Call of Duty, Minecraft, Modded Minecraft, and much, much more. I work 40 hours a week and can only record on the weekends. Recently though I began doing many more things. I joined the Minecraft Modding team know as TheDragonTeam&copy. I am also part of Team Avion&copy, another Minecraft Modding team. Recently my friend TJKenMate and I began production of a new Minecraft Modpack called Avion. It is a Modpack based on a continuous progression system and the need for users to think creatively to design unique and innovative ways to create the perfect world of automation.  We have both put countless hours into ensure that Avion will be perfect and we hope to have it released very soon.</p>
+            <h4 id="h4">Avion</h4>
+            <p id="bio">Avion is a modpack designed to make you think.  It will challenge you to use unique and innovative ways to make your base's automation perfect.   With a continuous progression system you'll always be striving to go further and further into the pack until you make the perfect world. With 2 separate modes including, Avion the challenging mode, Classic the default mode. Our Avion mode will adjust recipes and add a progression system akin to that of FTB Infinity Evolved Expert mode. Classic mode will still have some altered recipes and the progression system but won't be nearly as difficult. These are both subject to change at any time.  The full mod list has not been completed yet but we expect to have over 100 mods all handpicked and adjusted to the thesis of Avion. </p>
+            <h5 id="h5">Teams</h5>
+            <p id="bio"></p>
         </div>
-        <div id="codplaylist"><span style="color: aqua;">Call of Duty</span>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLpIxAOdQZKmEyGCwV31bswljEHYb459OT" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div id="modplaylist"><span style="color: aqua;">Mods/Modpack Development</span>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLpIxAOdQZKmE88W-iFckkxwLQqN6D46Ls" frameborder="0" allowfullscreen></iframe>
+        <div class="col-sm-3">
+            <h3 id="h3">Videos</h3>
+            <div id="ytplayers">
+                <div id="mcplaylist"><span style="color: aqua;">Xbox One Minecraft Series</span>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/videoseries?list=PLpIxAOdQZKmE677hqVzgGM7e9d5srl-lT" frameborder="0" style="border: 2px solid aqua;" allowfullscreen></iframe>
+                </div>
+                <div id="codplaylist"><span style="color: aqua;">Call of Duty Videos</span>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/videoseries?list=PLpIxAOdQZKmEyGCwV31bswljEHYb459OT" frameborder="0" style="border: 2px solid aqua;" allowfullscreen></iframe>
+                </div>
+                <div id="modplaylist"><span style="color: aqua;">Mods/Modpack Development</span>
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/videoseries?list=PLpIxAOdQZKmE88W-iFckkxwLQqN6D46Ls" frameborder="0" style="border: 2px solid aqua;" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </div>
-
+</div>
+<div>
+    <div>
+        <div class="row text-center">
+            <footer>
+                <h2><small><span style="color: #00F0FF;">&copyCopyright A Deathly Touch</span></small></h2>
+            </footer>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>

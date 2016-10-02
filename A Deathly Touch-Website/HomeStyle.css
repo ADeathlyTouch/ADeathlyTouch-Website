@@ -6,10 +6,10 @@ img {
     margin-top: 25px;
 }
 .dlinkc {
-    color: #00FF00;
+    color: crimson;
 }
 #myNavbar {
-    margin-left: 350px;
+    margin-left: 340px;
 }
 #intro {
     color: #00FF00;
@@ -22,8 +22,29 @@ img {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#h2 {
+    color: #00FF00;
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-bottom: 50px;
     font-size: 3em;
+    text-decoration: underline;
+}
+#h3 {
+    color: #00FF00;
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    text-decoration: underline;
 }
 #intro2 {
     color: #00FF00;
@@ -33,25 +54,16 @@ img {
 }
 #mcplaylist {
     display: block;
-    margin-left: 420px;
-    margin-right: 420px;
-    border: 2px solid aqua;
     margin-bottom: 15px;
     text-align: center;
 }
 #codplaylist {
     display: block;
-    margin-left: 420px;
-    margin-right: 420px;
-    border: 2px solid aqua;
     margin-bottom:15px;
     text-align: center;
 }
 #modplaylist {
     display: block;
-    margin-left: 420px;
-    margin-right: 420px;
-    border: 2px solid aqua;
     margin-bottom:15px;
     text-align: center;
 }
@@ -59,5 +71,40 @@ img {
     background-color: aqua;
 }
 #dheader{
-    color: #FFD801;
+    color: lawngreen;
+    font-size: 15px;
+}
+#navtext {
+    color: lawngreen;
+}
+#footer {
+    color: #00f0ff;
+    font-size: 10px;
+}
+#body {
+    margin: auto;
+}
+#ph1 {
+    text-align: center;
+    display: block;
+    margin-top: 73px;
+}
+#t1 {
+    text-decoration: none;
+    color: #00FF00;
+}
+#bio {
+    color: #00FF00;
+    margin: auto;
+    text-align: center;
+}
+#h4 {
+    color: #00FF00;
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-decoration: underline;
 }
