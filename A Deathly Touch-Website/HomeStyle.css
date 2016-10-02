@@ -6,7 +6,7 @@ img {
     margin-top: 25px;
 }
 .dlinkc {
-    color: crimson;
+    color: black;
 }
 #myNavbar {
     margin-left: 340px;
@@ -52,19 +52,9 @@ img {
     text-align: center;
     margin-bottom: 15px;
 }
-#mcplaylist {
+#mcplaylist, #codplaylist, #modplaylist {
     display: block;
     margin-bottom: 15px;
-    text-align: center;
-}
-#codplaylist {
-    display: block;
-    margin-bottom:15px;
-    text-align: center;
-}
-#modplaylist {
-    display: block;
-    margin-bottom:15px;
     text-align: center;
 }
 #divider {
@@ -79,7 +69,7 @@ img {
 }
 #footer {
     color: #00f0ff;
-    font-size: 10px;
+    font-size: 5px;
 }
 #body {
     margin: auto;
@@ -107,4 +97,44 @@ img {
     margin-bottom: 15px;
     font-size: 2em;
     text-decoration: underline;
+}
+#h5 {
+    color: #00FF00;
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#tdt {
+    text-decoration: underline;
+    color: #00FF00;
+}
+#dheader{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #404040;
+    color: #00FF00;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+#Header-Top {
+    text-align: center;
+    background-image: url(Images/webpic14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    font-family: 'Dancing Script', cursive;
+    color: aqua;
+    font-weight: 900;
+    text-shadow: 4px 4px #000000;
+    border-bottom: 10px solid #006160;
+}
+#Header-Text {
+    font-size: 100px;
 }
